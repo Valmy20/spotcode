@@ -2,7 +2,7 @@
   <div class="columns is-mobile">
     <div class="column is-2-mobile is-1-desktop play-button">
       <%= link_to "javascript:void(0);",  class: "has-text-white", data: { song: url_for(song.file),
-                                                                          ulr: album_recently_heards_path(song.album) } do %>
+                                                                          url: album_recently_heards_path(song.album) } do %>
         <i class="fas fa-play-circle fa-2x"></i>
       <% end %>
     </div>
